@@ -1,0 +1,159 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-image: url('https://fastly.picsum.photos/id/60/1920/1200.jpg?hmac=fAMNjl4E_sG_WNUjdU39Kald5QAHQMh-_-TsIbbeDNI');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+header{
+    background-color: #ffb84d;
+    padding: 0px;
+    margin: 0px;
+    height:50px;
+    border-style: none none solid;
+    border-color: black;
+}
+h1{
+    display: block;
+    padding: 1px;
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Merriweather', serif;
+    white-space: nowrap;
+}
+
+#boton-menu{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 5px;
+    top: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: auto;
+    background-color: #e68a00;
+    transition: background-color 0.5s ease;
+
+}
+
+#boton-menu:hover{
+    background-color: #ffc266;
+}
+
+#menu-navegacion{
+    display: none;
+    grid-template-columns: auto auto auto;
+    height: 30px;
+}
+
+section{
+    margin-top: 40px;
+    flex-grow: 1;
+    margin: 0% 15%;
+    background-color: #b3b3b3;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#intro{
+    text-align: center;
+}
+
+#perfil{
+    display: none;  
+}
+
+#contacto{
+    display: none;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+
+.b-nav{
+    position: relative;
+    align-content: center;
+    background-color: #ffaa00;
+    border-radius: 6px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#boton-inicio{
+    grid-column: 1;
+    transition: background-color 0.5s ease;
+}
+
+#boton-inicio:hover{
+    background-color:#993300;
+}
+
+#boton-perfil{
+    grid-column: 2;
+    transition: background-color 0.5s ease;
+}
+
+#boton-perfil:hover{
+    background-color: #993399;
+}
+
+#boton-contacto{
+    grid-column: 3;
+    transition: background-color 0.5s ease;
+}
+
+#boton-contacto:hover{
+    background-color: #339933;
+}
+
+input{
+    resize: horizontal;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#cuadro-mensaje{
+    resize: vertical;
+    height: 300px;
+    width: 60%;
+}
+
+#boton-enviar{
+    border-radius: 6px;
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #e68a00;
+
+}
+
+
+footer{
+    width: 100%;
+    background-color: #ffb84d;
+    border-top: 2px solid black;
+    font-family: 'Merriweather', serif;
+    
+}
+
+#disclaimer{
+    margin-left: 10%;
+}
+
+@media screen and (min-width: 1004px) {
+    .footer-div {
+      display: inline;
+    }
+}
+
+.footer-links{
+    margin-right: 5px;
+}
