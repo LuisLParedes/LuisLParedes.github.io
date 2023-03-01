@@ -121,6 +121,12 @@ input{
     margin-left: 15px;
 }
 
+@media screen and (max-width: 600px) {
+    input {
+      width: 60%;
+    }
+}
+
 #cuadro-mensaje{
     resize: vertical;
     height: 300px;
